@@ -1,0 +1,9 @@
+#header {
+  font-family: Tahoma, Verdana, sans-serif;
+  color: #000;
+  letter-spacing: 6px; /*change to rem*/
+  font-size: 200% /*change to rem*/
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.6em;
+  }
