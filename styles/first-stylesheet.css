@@ -1,4 +1,4 @@
-#header {
+header {
   font-family: Tahoma, Verdana, sans-serif;
   color: #000;
   letter-spacing: 6px; /*change to rem*/
@@ -7,3 +7,13 @@
   text-align: center;
   line-height: 1.6em;
   }
+.gradient {
+  height: 100%
+  background-color: gray; /*For browsers that don't allow for a gradient*/
+  background-image: -webkit-gradient(linear, center top, center bottom, from(#e5e5e5),to (#fff));
+  background-image: -webkit-linear-gradient(top, #e5e5e5, #ffffff);
+  background-image: -moz-linear-gradient(top, #e5e5e5, #ffffff);
+  background-image: -o-linear-gradient(top, #e5e5e5, #fff);
+  background-image: -ms-linear-gradient(top, #e5e5e5, #fff);
+  background-image: linear-gradient(to bottom, #e5e5e5, #fff);
+} 
