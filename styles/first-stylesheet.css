@@ -1,19 +1,45 @@
 header {
   font-family: Tahoma, Verdana, sans-serif;
   color: #000;
-  letter-spacing: 6px; /*change to rem*/
-  font-size: 200% /*change to rem*/
+  letter-spacing: 0.3125rem; 
+  font-size: 32rem 
   font-weight: bold;
   text-align: center;
-  line-height: 1.6em;
+ 
   }
 .gradient {
   height: 100%
   background-color: gray; /*For browsers that don't allow for a gradient*/
-  background-image: -webkit-gradient(linear, center top, center bottom, from(#e5e5e5),to (#fff));
-  background-image: -webkit-linear-gradient(top, #e5e5e5, #ffffff);
-  background-image: -moz-linear-gradient(top, #e5e5e5, #ffffff);
-  background-image: -o-linear-gradient(top, #e5e5e5, #fff);
-  background-image: -ms-linear-gradient(top, #e5e5e5, #fff);
-  background-image: linear-gradient(to bottom, #e5e5e5, #fff);
+  background-image: -webkit-gradient(linear, center top, center bottom, from(#5b5b7c),to (#fff));
+  background-image: -webkit-linear-gradient(top, #5b5b7c, #ffffff);
+  background-image: -moz-linear-gradient(top, #5b5b7c, #ffffff);
+  background-image: -o-linear-gradient(top, #5b5b7c, #fff);
+  background-image: -ms-linear-gradient(top, #5b5b7c, #fff);
+  background-image: linear-gradient(to bottom, #5b5b7c, #fff);
 } 
+
+a {
+  text-decoration: none;
+  color: rebeccapurple;
+}
+
+h1, h2, h4, h5, p {
+  text-align: center;
+}
+h3 {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+img {
+  display: block;
+  width: 500px;
+  height: 281px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.7rem;
+}
