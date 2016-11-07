@@ -1,6 +1,4 @@
-* {
-  margin: 0rem;
-}
+
 
 main {
   clear: both;
@@ -9,9 +7,12 @@ main {
   overflow: hidden;
   float: none;
   display: inline-block;
+  width: 100%;
 }
 
 header {
+  margin: 0rem;
+  padding-top: 2rem;
   position: relative;
   clear: both;
   float: none;
@@ -25,19 +26,13 @@ header {
 
 h1 {
   position: relative;
-  clear: right;
-  display: inline;
   text-transform: uppercase;
   text-decoration: underline;
   line-height: 40%;
-  margin-right: -12rem;
-  margin-top: 1rem;
-  width: 100%;
-  padding: 3rem 0 1 0;
+  padding: 3rem 0 1rem 0;
 }
 
 nav {
-  width:100%;
   display: block;
   padding-top: 2rem; 
   padding-bottom: 1rem;
@@ -60,7 +55,7 @@ nav li {
 }
 
 .gradient {
-  height: 100%
+  height: 100%;
   background-color: gray; /*For browsers that don't allow for a gradient*/
   background-image: -webkit-gradient(linear, center top, center bottom, from(#5b5b7c), to (#fff));
   background-image: -webkit-linear-gradient(top, #5b5b7c, #fff);
@@ -70,26 +65,16 @@ nav li {
   background-image: linear-gradient(to bottom, #5b5b7c, #fff);
 } 
 
-aside {
-  display: inline-block;
-  text-align: center;
-  float: right;
-  margin: 1rem;
-  border: 0.05em solid black;
-  width: 10rem;
-  font-size: 0.7rem;
-}
-
 a {
   text-decoration: none;
   color: rebeccapurple;
 }
 
-a: hover {
+/*a: hover {
   color: pink; 
-}
+}*/
 
-h2, h4, h5, p {
+h1, h2, h4, h5, p {
   text-align: center;
   padding: 1rem;
   margin: auto;
@@ -122,6 +107,10 @@ img {
 
 footer {
   text-align: center;
+  margin: 1rem;
+  border: 0.05em solid black;
+  width: 10rem;
   font-size: 0.7rem;
+  margin: auto;
   padding-bottom: 1rem;
 }
