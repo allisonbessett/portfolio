@@ -1,12 +1,13 @@
 * {
-  margin: 0;
+  margin: 0rem;
 }
 
 main {
+  clear: both;
+  text-align: center; 
   position: relative;
   overflow: hidden;
   float: none;
-  clear: both;
   display: inline-block;
 }
 
@@ -17,10 +18,9 @@ header {
   font-family: Tahoma, Verdana, sans-serif;
   color: #000;
   letter-spacing: 0.3125rem; 
-  font-size: 32rem 
+  font-size: 1rem;  
   font-weight: bold;
   text-align: center;
-  padding: 1rem 2rem 0 2rem;
 }
 
 h1 {
@@ -30,25 +30,33 @@ h1 {
   text-transform: uppercase;
   text-decoration: underline;
   line-height: 40%;
-  padding-right: -10rem;
+  margin-right: -12rem;
   margin-top: 1rem;
-  width: 100%
+  width: 100%;
+  padding: 3rem 0 1 0;
 }
 
 nav {
-  display: inline-block;
-  padding-top: 2rem; padding-bottom: 1rem;
+  width:100%;
+  display: block;
+  padding-top: 2rem; 
+  padding-bottom: 1rem;
+  
+  
 }
 
 nav ul {
+  width: 100%;
   list-style: none;
   display: flex;
   justify-content: space-around;
+  padding-top: 1.5rem;
+  
 }
 
 nav li {
-  padding: 1rem, 3rem;
-  margin-right: 2rem;
+  width: 100%;
+  text-align: center;
 }
 
 .gradient {
@@ -69,7 +77,6 @@ aside {
   margin: 1rem;
   border: 0.05em solid black;
   width: 10rem;
- 
   font-size: 0.7rem;
 }
 
@@ -82,10 +89,10 @@ a: hover {
   color: pink; 
 }
 
-h1, h2, h4, h5, p {
-  clear: right;
+h2, h4, h5, p {
   text-align: center;
   padding: 1rem;
+  margin: auto;
 }
 
 h3 {
