@@ -61,12 +61,13 @@ a {
   font-size: 1.2rem;
 }
 
-h2, {
+h2 {
   font-family: 'Trirong', serif;
   color: #404540;
   text-align: center;
   padding: 1rem;
   margin: auto;
+  font-weight: 400;
 }
 
 p {
@@ -98,6 +99,10 @@ address {
   padding: 0.5rem;
 }
 
+.lulea {
+  font-size: inherit;
+}
+
 img {
   display: block;
   width: 30rem;
@@ -111,7 +116,9 @@ img {
 footer {
   text-align: center;
   margin: auto;
-  border: 0.05em solid black;
+  border-style: solid;
+  border-color: #BF9D7E;
+  line-height: 0.3rem;
   width: 10rem;
   font-size: 0.7rem;
   padding-bottom: 1rem;
