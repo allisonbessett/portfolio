@@ -1,21 +1,10 @@
-
-
 main {
-  clear: both;
   text-align: center; 
-  position: relative;
-  overflow: hidden;
-  float: none;
-  display: inline-block;
   width: 100%;
 }
 
 header {
-  margin: 0rem;
   padding-top: 2rem;
-  position: relative;
-  clear: both;
-  float: none;
   font-family: Tahoma, Verdana, sans-serif;
   color: #000;
   letter-spacing: 0.3125rem; 
@@ -25,7 +14,6 @@ header {
 }
 
 h1 {
-  position: relative;
   text-transform: uppercase;
   text-decoration: underline;
   line-height: 40%;
@@ -33,25 +21,24 @@ h1 {
 }
 
 nav {
-  display: block;
-  padding-top: 2rem; 
-  padding-bottom: 1rem;
-  
-  
+  width: 100%;
+  margin: auto;
 }
 
 nav ul {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  display: inline;
   list-style: none;
-  display: flex;
-  justify-content: space-around;
-  padding-top: 1.5rem;
-  
 }
 
 nav li {
-  width: 100%;
   text-align: center;
+  width: 100%;
+  text-decoration: none;
+
 }
 
 .gradient {
@@ -70,11 +57,7 @@ a {
   color: rebeccapurple;
 }
 
-/*a: hover {
-  color: pink; 
-}*/
-
-h1, h2, h4, h5, p {
+h2, h4, h5, p {
   text-align: center;
   padding: 1rem;
   margin: auto;
@@ -93,16 +76,10 @@ img {
   display: block;
   width: 30rem;
   height: auto;
-  padding-top: 0.5rem; padding-bottom: 2rem;
+  padding-top: 0.5rem; 
+  padding-bottom: 2rem;
   margin-left: auto;
   margin-right: auto;
-}
-
-.button {
-  background-color: transparent;
-  display: inline-block;
-  text-align: center;
-  margin: 0 auto;
 }
 
 footer {
@@ -111,6 +88,5 @@ footer {
   border: 0.05em solid black;
   width: 10rem;
   font-size: 0.7rem;
-  margin: auto;
   padding-bottom: 1rem;
 }
