@@ -136,17 +136,15 @@ figcaption {
 
 .lulea {
   display: inline-block;
-  margin-bottom: 0.5rem;
   width: 70%;
   height: auto;
   margin-right: 0.5rem;
 }
-.lulea:hover img {
-  display: none;
-}
 
-.lulea:hover::after {
-  content:url(walking-on-water.jpg);
+
+.lulea:hover {
+  content:url('https://raw.githubusercontent.com/allisonbessett/portfolio/master/images/walking-on-water.jpg');
+  transition: all 2s linear 1s;
   width:70%;
   height: auto;
 }
