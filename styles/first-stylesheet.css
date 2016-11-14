@@ -70,7 +70,12 @@ a {
   text-decoration: none;
   color: #6B6457;
   letter-spacing: .15rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
+}
+
+a:hover {
+  transition: all 0.5s linear 0s;
+  color:black;
 }
 
 h2 {
@@ -123,9 +128,19 @@ img {
   padding-bottom: 0.5rem;
 }
 
+
 figcaption {
   padding-bottom: 1rem;
   color: #BF9D7E;
+}
+
+figcaption:hover {
+  transition: all 0.1s linear 0s;
+  font-size: 1.2rem;
+}
+
+h4:nth-of-type(odd) {
+  color: #BF9D7E; 
 }
 
 .wrap {
@@ -134,41 +149,21 @@ figcaption {
   position: relative;
 }
 
-.lulea {
+.lulea, .lofoten, .storforsen, .dyrholaey {
   display: inline-block;
-  width: 70%;
+  width: 45rem;
   height: auto;
-  margin-right: 0.5rem;
 }
 
-
+/*Still working on this
 .lulea:hover {
   content:url('https://raw.githubusercontent.com/allisonbessett/portfolio/master/images/walking-on-water.jpg');
   transition: all 2s linear 1s;
   width:70%;
   height: auto;
-}
+}*/
 
-{
-  display: inline-block;
-  margin-bottom: 0.5rem;
-  width: 70%;
-  margin-right: 0.5rem;
-}
 
-{
-  display: inline-block;
-  margin-bottom: 0.5rem;
-  width: 70%;
-  margin-right: 0.5rem;
-}
-
-{
-  display: inline-block;
-  margin-bottom: 0.5rem;
-  width: 70%;
-  margin-right: 0.5rem;
-}
 
 footer {
   text-align: center;
