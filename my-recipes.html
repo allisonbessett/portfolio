@@ -17,22 +17,38 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-        <h1 class="index-h1">Allison's Website</h1>
-        
-        <nav class="nav nav-inline">
-          <a class="nav-link active" href="index.html">Home</a>
-          <a class="nav-link" href="travel.html">Travel</a>
-          <a class="nav-link" href="projects.html">Projects</a>
-          <a class="nav-link" href="my-recipes.html">My Recipes</a>
-          <a class="nav-link" href="about-me.html">About Me</a>
-        </nav>
-        
+        <h1 class="index-h1">My Recipes
+            <small>
+              <a class="text-muted nav-link active" href="index.html">Home</a>
+              <a class="text-muted nav-link" href="travel.html">Travel</a>
+              <a class="text-muted nav-link" href="projects.html">Projects</a>
+              <a class="text-muted nav-link" href="my-recipes.html">My Recipes</a>
+              <a class="text-muted nav-link" href="about-me.html">About Me</a>
+          </small>
+        </h1>
       </header>
+      <div class="panel panel-default">
+  <div class="bg-success panel-body">
+    <p> Not too long ago, I had a website called Ali Roux. I blogged about my adventures in Europe and created recipes to share. Here are a few!</p></div></div>
+        
+        <div class="panel panel-default">
+          <div class="panel-heading">
+             <h3 class="panel-title">Join My Email List!</h3>
+          </div>
+         <div class="panel-body">
+            <label for="exampleInputName2">Name</label>
+            <input type="text" class="form-control" id="exampleInputName2" placeholder="">
+          <div class="form-group">
+            <label for="exampleInputEmail2">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="">
+          </div>
+          <button type="submit" class="btn btn-default">Join</button>
+          </div></div>
       
       <div class="row">
-        <div class="col-md-4"><button type="button" class="btn btn-primary btn-xs">Sweet Potato Bread</button></div>
-        <div class="col-md-4"><button type="button" class="btn btn-primary btn-xs">Gnocchi</button></div>
-        <div class="col-md-4"><button type="button" class="btn btn-primary btn-xs">Chocolate and Peanut Butter Swirled Fudge</button></div>
+        <div class="col-md-4"><button type="button" class="btn btn-default btn-xs">Sweet Potato Bread</button></div>
+        <div class="col-md-4"><button type="button" class="btn btn-default btn-xs">Gnocchi</button></div>
+        <div class="col-md-4"><button type="button" class="btn btn-default btn-xs">Chocolate and Peanut Butter Swirled Fudge</button></div>
       </div>
        
       <div class="row">
@@ -42,9 +58,9 @@
       </div>
       
        <div class="row">
-        <div class="col-md-4"><button type="button" class="btn btn-primary btn-xs">Beet Muffins</button></div>
-        <div class="col-md-4"><button type="button" class="btn btn-primary btn-xs">Lingonberry and Sea Buckthorn Berry Crepes</button></div>
-        <div class="col-md-4"><button type="button" class="btn btn-primary btn-xs">Orange Juice Yogurt with Coconut and Fruit</button></div>
+        <div class="col-md-4"><button type="button" class="btn btn-default btn-xs">Beet Muffins</button></div>
+        <div class="col-md-4"><button type="button" class="btn btn-default btn-xs">Lingonberry and Sea Buckthorn Berry Crepes</button></div>
+        <div class="col-md-4"><button type="button" class="btn btn-default btn-xs">Orange Juice Yogurt with Coconut and Fruit</button></div>
       </div>
       <div class="row">
         <div class="col-md-4"><img src="images/15450900_10210988882139851_1536695652_n.jpg" alt="Beet Muffins" class="img-responsive"/></div>
@@ -52,9 +68,19 @@
         <div class="col-md-4"><img src="images/15356944_10210988883339881_755374294_n.jpg" alt="Fruit and Coconut Yogurt" class="img-responsive"/></div>
       </div>
     </div>
+    
+    <p class="text-info">Questions or Comments?</p>
+    <textarea class="form-control" rows="3"></textarea>
+    <input class="btn btn-default" type="submit" value="Submit">
     <footer>
-      <button type="button"
-    class="glyphicon glyphicon-envelope"></button>
+      <h3 class="text-info">Contact Me:</h3>
+       <address>
+        <span class="label label-default">Email Me</span>
+        <span class="label label-primary">Like Me on Facebook</span>
+        <span class="label label-success">Follow Me on Twitter</span>
+        <span class="label label-info">Add Me on Instagram</span>
+        <span class="label label-warning">Pin My Recipes on Pinterest</span>
+      </address>
     </footer>
   </body>
 </html>
