@@ -41,7 +41,7 @@ h1 {
 
 @media screen and (max-width: 600px) {
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -89,12 +89,12 @@ nav li {
 .gradient {
   height: 100%;
   background-color: gray; /*For browsers that don't allow for a gradient*/
-  background-image: -webkit-gradient(linear, center top, center bottom, from(#B6B9B8), to (#fff));
-  background-image: -webkit-linear-gradient(top, #B6B9B8, #fff);
-  background-image: -moz-linear-gradient(top, #B6B9B8, #fff);
-  background-image: -o-linear-gradient(top, #B6B9B8, #fff);
-  background-image: -ms-linear-gradient(top, #B6B9B8, #fff);
-  background-image: linear-gradient(to bottom, #B6B9B8, #fff);
+  background-image: -webkit-gradient(linear, center top, center bottom, from(#E9EAEA), to (#fff));
+  background-image: -webkit-linear-gradient(top, #E9EAEA, #fff);
+  background-image: -moz-linear-gradient(top, #E9EAEA, #fff);
+  background-image: -o-linear-gradient(top, #E9EAEA, #fff);
+  background-image: -ms-linear-gradient(top, #E9EAEA, #fff);
+  background-image: linear-gradient(to bottom, #E9EAEA, #fff);
 } 
 
 a {
@@ -119,9 +119,15 @@ h2 {
   font-weight: 300;
 }
 
-@media screen and (max-width: 750px){
+@media screen and (max-width: 750px) and (min-width: 500) {
   h2 {
     font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 499px) {
+  h2 {
+    1.4rem;
   }
 }
 
@@ -149,10 +155,30 @@ p {
   }
 }
 
-@media screen and (max-width: 799px) {
+@media screen and (max-width: 799px) and (min-width: 500px) {
   .about-me-paragraph {
-    padding: 0 1rem 2rem 1rem;
+    padding: 1rem 2rem;
 }
+}
+
+/*
+@media screen and (max-width: 499px) {
+  .about-me-paragraph {
+    font-size: 1.4rem;
+  }
+}
+*/
+
+#versailles {
+  margin: auto;
+  padding: 2rem;
+  display: block;
+  width: 40%;
+  height: auto;
+}
+
+#gh {
+  font-size: inherit;
 }
 
 h3 {
