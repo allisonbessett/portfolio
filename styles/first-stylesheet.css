@@ -225,7 +225,7 @@ figcaption:hover {
   font-size: 1.2rem;
 }
 
-h4:nth-of-type(odd) {
+h4 {
   color: #BF9D7E; 
 }
 
@@ -235,9 +235,9 @@ h4:nth-of-type(odd) {
   position: relative;
 }
 
-.lulea, .lofoten, .storforsen, .dyrholaey {
+#lulea, #lofoten, #storforsen, #dyrholaey, #bennett {
   display: inline-block;
-  width: 45rem;
+  width: 70%;
   height: auto;
 }
 
