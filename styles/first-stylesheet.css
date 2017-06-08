@@ -7,12 +7,12 @@
   max-width: 80%;
 }
 }
+
 main {
   text-align: center; 
   margin: auto;
   overflow: hidden;
 }
-
 
 header {
   padding-top: 1rem;
@@ -84,7 +84,6 @@ nav li {
 .index-nav {
   padding-top: 4rem;
 }
-
 
 .gradient {
   height: 100%;
@@ -248,8 +247,6 @@ h4 {
   width:70%;
   height: auto;
 }*/
-
-
 
 footer {
   position: sticky;
