@@ -5,7 +5,7 @@
 @media screen and (min-width: 1340px) {
 .container {
   max-width: 80%;
-}
+  }
 }
 
 main {
@@ -23,7 +23,7 @@ header {
 
 .index-h1 {
   font-size: 2.2rem;
-  padding-top: 8rem;
+  padding-top: 3rem;
 }
 
 h1 {
@@ -79,7 +79,6 @@ nav li {
     flex-wrap: wrap;
   }
 }
-
 
 .index-nav {
   padding-top: 4rem;
@@ -157,7 +156,7 @@ p {
 @media screen and (max-width: 799px) and (min-width: 500px) {
   .about-me-paragraph {
     padding: 1rem 2rem;
-}
+  }
 }
 
 /*
@@ -234,12 +233,44 @@ h4 {
   position: relative;
 }
 
+.flex-container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+@media screen and (max-width: 600px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .coliseum, .gamla, .eiffel {
+    width: 90%;
+  }
+}
+
+.coliseum, .gamla, .eiffel {
+ width: 30%;
+ padding: 1rem;
+}
+
 #lulea, #lofoten, #tivoli, #storforsen, #dyrholaey, #bennett, #winter-wear {
   display: inline-block;
   width: 70%;
   height: auto;
 }
 
+@media screen and (max-width: 799px) and (min-width: 500px) {
+  .coliseum, .gamla, .eiffel {
+    width: 30%;
+  }
+  
+}
 /*Still working on this
 .lulea:hover {
   content:url('https://raw.githubusercontent.com/allisonbessett/portfolio/master/images/walking-on-water.jpg');
